@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<!------------------------------------------------------------------
+* Bootstrap Responsive Web Application Template
+* Email: heyalexluna@gmail.com
+* Version: 1.1
+* Last change: 2020-03-02
+* Author: Alexis Luna
+* Copyright 2019 Alexis Luna
+* Website: https://github.com/mralexisluna/bootstrap-responsive-web-application-template
+------------------------------------------------------------------->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Bootstrap Responsive Web Application Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- core css -->
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/flag-icon.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                <div class="side-nav-inner">
+                    <div class="side-nav-logo">
+                        <a href="index.html">
+                            <div class="logo logo-dark" style="background-image: url('assets/images/logo/logo.png')"></div>
+                        </a>
+                    </div>
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item active">
+                            <a class="" href="index.html">
+                                <span class="icon-holder"><i class="ti-home"></i></span>
+                                <span class="title">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-package"></i></span>
+                                <span class="title">Apps</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="apps.email.html">Email</a>
+                                </li>
+                                <li>
+                                    <a href="apps.calendar.html">Calendar</a>
+                                </li>
+                                <li>
+                                    <a href="apps.social.html">Social</a>
+                                </li>
+                                <li>
+                                    <a href="apps.task.html">Task</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-palette"></i></span>
+                                <span class="title">UI Elements</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="ui.buttons.html">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="ui.cards.html">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="ui.notification.html">Notification</a>
+                                </li>
+                                <li>
+                                    <a href="ui.tabs.html">Tabs &amp; Accordions</a>
+                                </li>
+                                <li>
+                                    <a href="ui.modals.html">Modals</a>
+                                </li>
+                                <li>
+                                    <a href="ui.progress-slider.html">Progress &amp; Slider</a>
+                                </li>
+                                <li>
+                                    <a href="ui.typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="ui.icons.html">Icons</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-file"></i></span>
+                                <span class="title">Forms</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="forms.elements.html">Form Elements</a>
+                                </li>
+                                <li>
+                                    <a href="forms.layouts.html">Form Layouts</a>
+                                </li>
+                                <li>
+                                    <a href="forms.wizard.html">Form Wizard</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-layout-media-overlay"></i></span>
+                                <span class="title">Tables</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="tables.basic-table.html">Basic Table</a>
+                                </li>
+                                <li>
+                                    <a href="tables.datatable.html">Data Table</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-pie-chart"></i></span>
+                                <span class="title">Charts</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="charts.chartjs.html">ChartJs</a>
+                                </li>
+                                <li>
+                                    <a href="charts.sparkline.html">Sparkline</a>
+                                </li>
+                                <li>
+                                    <a href="charts.nvd3.html">Nvd3</a>
+                                </li>
+                                <li>
+                                    <a href="charts.rickshaw.html">Ricksaw</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-map-alt"></i></span>
+                                <span class="title">Map</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="maps.vector-map.html">Vector Map</a>
+                                </li>
+                                <li>
+                                    <a href="maps.google-map.html">Google Map</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-files"></i></span>
+                                <span class="title">Pages</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="pages.signin.html">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="pages.signup.html">Sign Up</a>
+                                </li>
+                                <li>
+                                    <a href="pages.account-settings.html">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="pages.invoice.html">Invoice</a>
+                                </li>
+                                <li>
+                                    <a href="pages.faq.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="pages.gallery.html">Gallery</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder"><i class="ti-help-alt"></i></span>
+                                <span class="title">Site Error</span>
+                                <span class="arrow"><i class="ti-angle-right"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="404.html">404 Error page</a>
+                                </li>
+                                <li>
+                                    <a href="500.html">500 Error page</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                <!-- Header START -->
+                <div class="header navbar">
+                    <div class="header-container">
+                        <ul class="nav-left">
+                            <li>
+                                <a class="side-nav-toggle" href="javascript:void(0);">
+                                    <i class="ti-menu"></i>
+                                </a>
+                            </li>
+                            <li class="search-box">
+                                <a class="search-toggle no-pdd-right" href="javascript:void(0);">
+                                    <i class="search-icon ti-search pdd-right-10"></i>
+                                    <i class="search-icon-close ti-close pdd-right-10"></i>
+                                </a>
+                            </li>
+                            <li class="search-input">
+                                <input class="form-control" type="text" placeholder="Search...">
+                                <div class="advanced-search">
+                                    <div class="search-wrapper">
+                                        <div class="pdd-vertical-10">
+                                            <span class="display-block mrg-vertical-5 pdd-horizon-20 text-gray">
+													<i class="ti-user pdd-right-5"></i>
+													<span>People</span>
+                                            </span>
+                                            <ul class="list-unstyled list-info">
+                                                <li>
+                                                    <a href="">
+                                                        <img class="thumb-img" src="assets/images/avatars/avatar-1.png" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Mark Otto</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>United States</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img class="thumb-img" src="assets/images/avatars/avatar-2.png" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Jacob Thornton</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>United Kingdom</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img class="thumb-img" src="assets/images/avatars/avatar-3.png" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Philip Chaney</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>Netherlands</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mrg-horizon-20 border top"></div>
+                                        <div class="pdd-vertical-10">
+                                            <span class="display-block mrg-vertical-5 pdd-horizon-20 text-gray">
+													<i class="ti-rss pdd-right-5"></i>
+													<span>Post</span>
+                                            </span>
+                                            <ul class="list-unstyled list-info">
+                                                <li>
+                                                    <a href="">
+                                                        <img class="thumb-img" src="assets/images/p-50.png" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Finding your value in a workplace</span>
+                                                            <span class="sub-title">
+																	<span>Working can be daunting, people with toxic behavior...</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <img class="thumb-img" src="assets/images/p-50.png" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Work-life balance?</span>
+                                                            <span class="sub-title">
+																	<span>Know why going on a vacation can help you de-stress...</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="search-footer">
+                                        <span>Search results for '<b class="text-dark"><span class="serach-text-bind"></span></b>'</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="userprofile dropdown">
+                                <a href="" class="ropdown-toggle" data-toggle="dropdown"><i class="flag-icon flag-icon-us"></i> EN</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#en"><i class="flag-icon flag-icon-us"></i> EN</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#es"><i class="flag-icon flag-icon-es"></i> ES</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#fr"><i class="flag-icon flag-icon-fr"></i> FR</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#de"><i class="flag-icon flag-icon-de"></i> GE</a>
+                                </div>
+                            </li>
+                            <li class="notifications dropdown">
+                                <span class="counter">5</span>
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="notice-header">
+                                        <i class="ti-bell pdd-right-10"></i>
+                                        <span>Notifications</span>
+                                    </li>
+                                    <li>
+                                        <ul class="list-info overflow-y-auto relative scrollable">
+                                            <li>
+                                                <a href="">
+                                                    <img class="thumb-img" src="assets/images/avatars/avatar-4.png" alt="">
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Minerva Hooper</span>
+                                                        <span class="text-gray">commented on your <span class="text-dark">post</span></span>
+                                                        </span>
+                                                        <span class="sub-title">2 mins ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <img class="thumb-img" src="assets/images/avatars/avatar-5.png" alt="">
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Jacob Thornton</span>
+                                                        <span class="text-gray">commented on your <span class="text-dark">photo</span></span>
+                                                        </span>
+                                                        <span class="sub-title">5 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb-img bg-primary">
+															<span class="text-white">P</span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Philip Chaney</span>
+                                                        <span class="text-gray">likes your <span class="text-dark">photo</span></span>
+                                                        </span>
+                                                        <span class="sub-title">6 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb-img bg-success">
+														<span class="text-white"><i class="fa fa-paper-plane-o"></i></span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Email message sent</span>
+                                                        </span>
+                                                        <span class="sub-title">6 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb-img bg-info">
+														<span class="text-white"><i class="ti-user"></i></span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Alexis Luna</span>
+                                                        <span class="text-gray">Welcome aboard!</span>
+                                                        </span>
+                                                        <span class="sub-title">12 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="notice-footer">
+                                        <span>
+                                            <a href="" class="text-gray">View all notifications <i class="ei-right-chevron pdd-left-5 font-size-10"></i></a>
+										</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="user-profile dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img class="profile-img img-fluid" src="assets/images/avatars/avatar-1.png" alt="">
+                                    <div class="user-info">
+                                        <span class="name pdd-right-5">Alexis Luna</span>
+                                        <i class="ti-angle-down font-size-10"></i>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-email pdd-right-10"></i>
+                                            <span>Inbox</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-user pdd-right-10"></i>
+                                            <span>Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-settings pdd-right-10"></i>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-power-off pdd-right-10"></i>
+                                            <span>Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header END -->
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="social">
+                            <div class="container-fluid">
+                                <div class="social-cover card">
+                                    <div class="cover-img overlay-dark bg" style="background-image: url('assets/images/others/img-9.jpg')">
+                                        <div class="cover-content">
+                                            <div class="text-center border bottom border-hide-sm pdd-horizon-30 pdd-btm-10">
+                                                <h1 class="no-mrg-btm">Minerva Hooper</h1>
+                                                <p>UI/UX Designer</p>
+                                            </div>
+                                            <div class="row mrg-top-15">
+                                                <div class="col-md-6 border right border-hide-sm">
+                                                    <div class="text-center">
+                                                        <h3 class="no-mrg">8000</h3>
+                                                        <span>Follower</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="pdd-horizon-15">
+                                                        <div class="text-center">
+                                                            <h3 class="no-mrg">7000</h3>
+                                                            <span>Friends</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cover-footer">
+                                        <ul class="list-unstyled">
+                                            <li class="active">
+                                                <a href="">Timeline</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Photos</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Friends</a>
+                                            </li>
+                                        </ul>
+                                        <a href="" class="pull-right btn btn-primary btn-rounded no-mrg-btm">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="widget-profile-1 card">
+                                            <div class="profile border bottom">
+                                                <img class="mrg-top-30" src="assets/images/avatars/avatar-1.png" alt="" style="max-width: 100px">
+                                                <h4 class="mrg-top-20 no-mrg-btm text-semibold">Minerva Hooper</h4>
+                                                <p>Experience Designer</p>
+                                            </div>
+                                            <div class="pdd-horizon-30 pdd-vertical-20">
+                                                <h5 class="text-semibold mrg-btm-5">About</h5>
+                                                <p>It looks like Sandpeople did this, all right. Look, here are Gaffi sticks, Bantha tracks. It's just...I never heard of them.</p>
+                                                <div class="mrg-top-30 text-center">
+                                                    <ul class="list-unstyle list-inline">
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="" class="btn btn-facebook btn-icon btn-rounded">
+                                                                <i class="ti-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="" class="btn btn-twitter btn-icon btn-rounded">
+                                                                <i class="ti-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="" class="btn btn-google-plus btn-icon btn-rounded">
+                                                                <i class="ti-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="social-feeds">
+                                            <div class="card widget-compose">
+                                                <ul class="composor-tools border bottom">
+                                                    <li>
+                                                        <a href="">
+                                                            <i class="ti-image text-info pdd-right-5"></i>
+                                                            <span>Attachments</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            <i class="ti-face-smile text-warning pdd-right-5"></i>
+                                                            <span>Emoticon</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            <i class="ti-location-pin text-success pdd-right-5"></i>
+                                                            <span>Location</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <textarea class="form-control" placeholder="What's in your mind?"></textarea>
+                                                <div class="text-right mrg-top-10">
+                                                    <button class="btn btn-info no-mrg-btm">Post</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/avatar-1.png" alt="">
+                                                        <div class="info">
+                                                            <a href="" class="title no-pdd-vertical text-semibold inline-block">Minerva Hooper</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>Remember, a Jedi can feel the Force flowing through him. You mean it controls your actions? Partially. But it also obeys your commands. Hokey religions and ancient weapons are no match for a good blaster at your side, kid. You don't believe in the Force, do you? Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. With the blast shield down, I can't even see. How am I supposed to fight? Your eyes can deceive you. Don't trust them.</p>
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <ul class="list-unstyled list-info">
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-2.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Jacob Thornton</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>6 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">General Kenobi, years ago you served my father in the Clone Wars.</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-3.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Philip Chaney</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>3 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">What good's a reward if you ain't around to use it? Besides, attacking that battle station ain't my idea of courage.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/avatar-4.png" alt="">
+                                                        <div class="info">
+                                                            <a href="" class="title no-pdd-vertical text-semibold inline-block">Lissa Watkins</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>What good's a reward if you ain't around to use it?</p>
+                                                <img class="img-fluid" src="assets/images/others/img-11.jpg" alt="">
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <ul class="list-unstyled list-info">
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-5.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Vanessa Taylor</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>6 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">Holding her is dangerous.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card">
+                                            <div class="card-heading border bottom">
+                                                <h4 class="card-title">Friends</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-1.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Jacob Thornton</a>
+                                                                <span class="sub-title">
+																		<span>Experience Designer</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-2.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Philip Chaney</a>
+                                                                <span class="sub-title">
+																		<span>CTO</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-3.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Mark Otto</a>
+                                                                <span class="sub-title">
+																		<span>IT Manager</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-4.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Vanessa Taylor</a>
+                                                                <span class="sub-title">
+																		<span>Platform Developer</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/avatar-5.png" alt="">
+                                                            <div class="info">
+                                                                <a href="" class="title no-pdd-vertical text-semibold inline-block">Lissa Watkins</a>
+                                                                <span class="sub-title">
+																		<span>Executive</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="border top">
+                                                <div class="pdd-vertical-15 pdd-horizon-20 text-center">
+                                                    <a href="" class="text-semibold text-dark">More...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="content-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                            <span>Copyright © <span id="year"></span> <b><a href="https://github.com/mralexisluna/bootstrap-responsive-web-application-template" class="text-dark">Alexis Luna</a></b>. All rights reserved.</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assets/vendors/PACE/pace.min.js"></script>
+    <script src="assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/solid.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="assets/js/app.js"></script>
+    <!-- endbuild -->
+
+    <!-- page js -->
+
+</body>
+
+</html>
