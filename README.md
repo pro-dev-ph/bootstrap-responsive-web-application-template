@@ -1,5 +1,5 @@
 # About Bootstrap Responsive Web Application Template
-*Bootstrap Responsive Web Application Template is a complete admin template packed with more UI components than any other admin themes, its exceptional user interface is perfectly crafted and advanced layout features are optimized to suite every modern web application project and highly responsive to serve from a Mobile first to Desktop screen.* 
+*Bootstrap Responsive Web Application Template is a complete admin panel and dashboard template based on HTML5, designed for backend application, web application, SaaS application, website backend, and admin portal.* 
 
 ### Screenshot
 ![Bootstrap Responsive Web Application Template - Dashboard](https://i.postimg.cc/XND8X5P6/web-application-template.png)
@@ -23,9 +23,6 @@ Bootstrap Responsive Web Application Template is the most complete, and reliable
 - Re-usable components system
 - Fully customizable bootstrap components
 - Over 150+ custom made UI components
-
-Bootstrap Responsive Web Application Template is a complete admin panel and dashboard template based on HTML5, designed for backend application, web application, SaaS application, website backend, and admin portal.
-
 
 ## License
 
