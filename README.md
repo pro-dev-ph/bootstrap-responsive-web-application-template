@@ -28,5 +28,5 @@ Bootstrap Responsive Web Application Template is the most complete, and reliable
 
 Bootstrap Responsive Web Application Template is open-source software licensed under the [Apache license 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-Copyright (c) 2019-present, Alexis Luna
+Copyright (c) 2019-present, Pro Dev Ph
 
